@@ -1,0 +1,122 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 480104 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (memory/allocation.inline.hpp:61), pid=15172, tid=0x00000000000021a8
+#
+# JRE version:  (8.0_152-b01) (build )
+# Java VM: OpenJDK 64-Bit Server VM (25.152-b01 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000051a6800):  JavaThread "Unknown thread" [_thread_in_vm, id=8616, stack(0x0000000005000000,0x0000000005100000)]
+
+Stack: [0x0000000005000000,0x0000000005100000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000051a6800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=8616, stack(0x0000000005000000,0x0000000005100000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff67e2c0000 - 0x00007ff67e2f1000 	C:\Program Files\Android\Android Studio1\jre\bin\java.exe
+0x00007ffa8bac0000 - 0x00007ffa8bca0000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffa8b2c0000 - 0x00007ffa8b36e000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffa88210000 - 0x00007ffa88476000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffa89420000 - 0x00007ffa894c1000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffa89bf0000 - 0x00007ffa89c8d000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffa89c90000 - 0x00007ffa89ceb000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffa8b740000 - 0x00007ffa8b85f000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffa8b510000 - 0x00007ffa8b69e000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffa885a0000 - 0x00007ffa885c0000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffa8ba00000 - 0x00007ffa8ba28000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffa88020000 - 0x00007ffa881b4000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffa88500000 - 0x00007ffa8859b000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffa87ec0000 - 0x00007ffa87fb6000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffa788b0000 - 0x00007ffa78b19000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.16299.19_none_cc92fab02215da61\COMCTL32.dll
+0x00007ffa89110000 - 0x00007ffa89418000 	C:\WINDOWS\System32\combase.dll
+0x00007ffa88480000 - 0x00007ffa884f2000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffa89e40000 - 0x00007ffa89e6d000 	C:\WINDOWS\System32\IMM32.DLL
+0x000000006b270000 - 0x000000006b342000 	C:\Program Files\Android\Android Studio1\jre\jre\bin\msvcr100.dll
+0x00000000661a0000 - 0x00000000669de000 	C:\Program Files\Android\Android Studio1\jre\jre\bin\server\jvm.dll
+0x00007ffa89100000 - 0x00007ffa89108000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffa83640000 - 0x00007ffa83649000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffa894d0000 - 0x00007ffa8953c000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffa86270000 - 0x00007ffa86293000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffa78b50000 - 0x00007ffa78b5a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffa86210000 - 0x00007ffa8623a000 	C:\WINDOWS\SYSTEM32\winmmbase.dll
+0x00007ffa881c0000 - 0x00007ffa8820a000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x00007ffa6b210000 - 0x00007ffa6b21f000 	C:\Program Files\Android\Android Studio1\jre\jre\bin\verify.dll
+0x00007ffa4fec0000 - 0x00007ffa4fee9000 	C:\Program Files\Android\Android Studio1\jre\jre\bin\java.dll
+0x00007ffa54bd0000 - 0x00007ffa54be6000 	C:\Program Files\Android\Android Studio1\jre\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Djava.awt.headless=true -Xmx64M -Dfile.encoding=windows-1252 -Duser.country=BR -Duser.language=pt -Duser.variant 
+java_command: com.google.devtools.build.android.desugar.Desugar --input C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\classes\release --output C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\desugar\release\0 --input C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\stackFramesFixer\release\14.jar --output C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\desugar\release\15.jar --input C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\stackFramesFixer\release\11.jar --output C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\desugar\release\12.jar --input C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\stackFramesFixer\release\27.jar --output C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\desugar\release\28.jar --input C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\stackFramesFixer\release\23.jar --output C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\desugar\release\24.jar --input C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\stackFramesFixer\release\22.jar --output C:\Users\JCarvalhoJr\eclipse-workspace_2018\Web_Services_Android\Web_Service_Android_Client\app\build\intermediates\transforms\desugar\release\23.jar --input C:
+java_class_path (initial): C:\Users\JCarvalhoJr\AppData\Local\Temp\desugar_deploy.jar337262534165945699
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_162
+CLASSPATH=.;C:\Program Files (x86)\Griaule\Fingerprint SDK 2009\bin\GrFingerJava.jar
+USERNAME=JCarvalhoJr
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 16299 (10.0.16299.15)
+
+CPU:total 4 (initial active 4) (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 12496748k(3535840k free), swap 13545324k(4628k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.152-b01) for windows-amd64 JRE (1.8.0_152-release-915-b01), built by "builder" with MS VC++ 10.0 (VS2010)
+
+time: Thu Mar 22 13:43:08 2018
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

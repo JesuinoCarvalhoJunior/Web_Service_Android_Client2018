@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"> //Then you can use this
+
+    <!-- Search, should appear as action button -->
+
+    <!-- //change android: to app: -->
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        android:title="@string/action_share"
+        app:showAsAction="always"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />
+    />
+
+    <item
+        android:title="@string/action_search"
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+
+        />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/action_refresh"
+        app:showAsAction="never"
+        />
+
+    <!-- Settings, should always be in the overflow     app:showAsAction="never" />   //change android: to app:-->
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        />
+
+    <item
+        android:id="@+id/action_versao"
+        android:icon="@drawable/ic_drawer_settings"
+        android:title="@string/action_versao"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_detalhes"
+        android:icon="@drawable/search102"
+        android:title="@string/action_detalhes"
+        app:showAsAction="never"
+        />
+
+</menu>

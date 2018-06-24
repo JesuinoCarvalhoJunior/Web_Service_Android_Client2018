@@ -1,0 +1,61 @@
+<resources>
+    <!--  <string name="app_name">WebServiceEclipseAndroid</string> -->
+
+    <!-- <string name="app_name">WebServiceAndroidCliente</string> -->
+
+    <string name="app_name">VSICOCI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_pesquisa_por_id">pesquisaPorId</string>
+    <string name="title_activity_persquisa_por_id">PersquisaPorId</string>
+    <string name="title_activity_busca_por_id">BuscaPorIdActivity</string>
+    <string name="PesquisaPorId_IsEmpty">Preencha o código!</string>
+    <string name="CadastroCampoNome_IsEmpty">Preencha o nome!</string>
+    <string name="CadastroCampoIdade_IsEmpty">Preencha a idade!</string>
+    <string name="title_activity_xx">xx</string>
+    <string name="title_activity_atulizar_dados">AtulizarDadosActivity</string>
+    <string name="title_activity_atualizar_dados">AtualizarDadosActivity</string>
+    <string name="title_activity_detalhes_">Detalhes_Activity</string>
+
+    <string name="error_conexao_indisponivel">Conexão indisponível. Verifique seu Wi-Fi ou 3G!</string>
+    <string name="error_timeout">Servidor não responde!</string>
+    <string name="error_generico">Tenta mais tarde!</string>
+    <string name="img_content_description" />
+    <string name="login_user_required">Campo login obrigatório!</string>
+    <string name="login_password_required">Campo senha obrigatório!</string>
+    <string name="login_edt_user_hint">login</string>
+    <string name="login_edt_password_hint">senha</string>
+    <string name="login_lbl_user">Login:</string>
+    <string name="login_lbl_password">Senha:</string>
+    <string name="login_btn_enter_value">Entrar</string>
+    <string name="login_auth_ok">Autenticação Válida!</string>
+    <string name="login_auth_error">Autenticação Inválida!</string>
+    <string name="login_user_size_invalid">Seu login deve ter entre 4 e 15 caracteres!</string>
+    <string name="login_pass_size_invalid">Sua senha deve ter entre 6 e 15 caracteres!</string>
+    <string name="title_activity_login">Autenticar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_restrito">RestritoActivity</string>
+    <string name="title_activity_pincipal">PincipalActivity</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_share">Compartilhar</string>
+    <string name="action_versao">Versão</string>
+    <string name="action_detalhes">Versão</string>
+
+
+</resources>

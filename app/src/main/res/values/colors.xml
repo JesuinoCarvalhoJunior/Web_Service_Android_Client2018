@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ffffff</color> <!--Branco -->
+    <color name="colorPrimaryDark">#008cef</color>
+    <color name="colorAccent">#86d3f6</color>
+
+    <color name="text_color_default">#FF34B3</color>
+    <color name="text_color_inverse">#FFA500</color> <!--Branco -->
+    <color name="green">#006400</color>             <!--verde -->
+    <color name="list_row_default_bg">#ffffff</color> <!--Branco -->
+    <color name="list_row_pressed_bg">#008cef</color>
+    <color name="list_row_selected_bg">#86d3f6</color>
+
+    <!-- SwipeRefreshLayout -->
+    <color name="refresh_progress_1">#33B5E5</color>
+    <!-- azul -->
+    <color name="refresh_progress_2">#99CC00</color>
+    <!-- verde -->
+    <color name="refresh_progress_3">#CC0000</color>
+    <!-- vermelho -->
+</resources>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cadeado"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:text="Usuário"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_lbl_user" />
+
+    <EditText
+        android:id="@+id/login_edt_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="digite o login"
+        android:singleLine="true"
+        android:maxLength="15"
+        android:imeOptions="actionNext" />
+
+    <TextView
+        android:text="Senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_lbl_password" />
+
+    <EditText
+        android:id="@+id/login_edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="digite a senha"
+        android:singleLine="true"
+        android:maxLength="15"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone" />
+
+    <Button
+        android:id="@+id/login_btn_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar" />
+
+</LinearLayout>
